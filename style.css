@@ -1,0 +1,35 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('./images/weather.png');
+    background-size: cover;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+main h1 {
+    color: white;
+    font-size: 3.5rem;
+    line-height: 2;
+}
+
+#count-down {
+    color: white;
+    font-size: 3rem;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
